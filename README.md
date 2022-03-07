@@ -1,13 +1,11 @@
 # Visualizing online communities on social media
 ## MozFest 2022 Exhibit
 
-In the MozFest Trustworthy AI Working Group's project on visualizing communities and subcultures on social media, we set out to create a visualization that captured the dynamic time dependence of interactions between communities on the Internet. The visualization below is a proof-of-concept of the kinds of dynamics and interactions that can be captured using a graph visualization. We focus on two COVID-related hashtags that parent groups have been using on Twitter - `#teamreality` and `#urgencyofnormal`. Each node represents a hashtag, and each edge represents the two connected hashtags apprearing in the same Tweet, with the frequency of how often the appear signified by the color and width of the edge.
-
 {% include mozfest_graph_viz.html %}
 
-### Notes and interesting observations
+In the MozFest Trustworthy AI Working Group's project on visualizing communities and subcultures on social media, we set out to create a visualization that captured the dynamic time dependence of interactions between communities on the Internet. The visualization below is a proof-of-concept of the kinds of dynamics and interactions that can be captured using a graph visualization. We focus on two COVID-related hashtags that parent groups have been using on Twitter - `#teamreality` and `#urgencyofnormal`. Each node represents a hashtag, and each edge represents the two connected hashtags apprearing in the same Tweet, with the frequency of how often the appear signified by the color and width of the edge.
 
-### Technical details
+To see how the data was retrieved and the visualization was created, see [this notebook](https://github.com/twitterdev/hashtag-graph-viz/blob/main/notebooks/hashtag_graph_example_from_tweets.ipynb)
 
 
 Visualization created by:
